@@ -19,15 +19,7 @@ ourList
 ```
 
 ### Task 2
-Everytime you run the snippet of code below, a new random 4-word string, **randomPhrase** is generated. Extend the snippet to reverse both the order of the 4 words and the order of the letters in each word. Save this in a variable called **reversePhrase**.
-eg. 
-```sh
-band prize boss complex
-```
-would become:
-```sh 
-xelpmoc ssob ezirp dnab
-```
+Everytime you run the snippet of code below, a new random 4-word string, **randomPhrase** is generated. 
 
 ```sh
 import random
@@ -37,6 +29,17 @@ randomPhrase = " ".join([words[random.randrange(0, len(words))] for i in range(4
 
 randomPhrase
 ```
+
+Extend the snippet to reverse both the order of the 4 words and the order of the letters in each word. Save this in a variable called **reversePhrase**.
+eg. 
+```sh
+band prize boss complex
+```
+would become:
+```sh 
+xelpmoc ssob ezirp dnab
+```
+
 ## Working on the Exercise
 
 1.Fork the code challenge repository provided.
